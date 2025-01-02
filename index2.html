@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donation Form</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <h1>Quick Donation</h1>
+    <div id="card">
+      <div>
+        <label for="Currency">Currency</label> <br />
+        <select name="Currency" class="cur">
+          <option value=" PKR">PKR</option>
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="INR">INR</option>
+          <option value="AUD">AUD</option>
+          <option value="CAD">CAD</option>
+          <option value="JPY">JPY</option>
+          <option value="CHF">CHF</option>
+          <option value="CNY">CNY</option>
+          <option value="NZD">NZD</option>
+          <option value="SGD">SGD</option>
+          <option value="ZAR">ZAR</option>
+          <option value="SEK">SEK</option>
+          <option value="DKK">DKK</option>
+          <option value="NOK">NOK</option>
+        </select>
+      </div>
+      <div>
+        <label for="Donation Type">Donation Type</label> <br />
+        <select name="Donation Type" class="cur">
+          <option value="Sponser IT Student">Sponser IT Student</option>
+          <option value="Daily Food">Daily Food</option>
+          <option value="Sponser Vocational Training">
+            Sponser Vocational Training
+          </option>
+        </select>
+      </div>
+
+      <div>
+        <label for="Amount">Amount</label> <br />
+        <input type="number" class="cur" name="Amount" min="1" step="0.01" required/>
+      </div>
+      <div>
+        <label for="Donor Name">Donor Name</label> <br />
+        <input type="text" class="cur" name="Donor Name" required />
+      </div>
+      <div>
+        <label for="Phone Number">Phone Number</label> <br />
+        <input type="number" class="cur" name="Phone Number" required />
+      </div>
+      <div>
+        <label for="Date">Date</label> <br />
+        <input type="datetime-local" class="cur" name="Date" required />
+      </div>
+      <div>
+        <label for="Email">Email</label> <br />
+        <input type="email" class="cur" name="Email" required />
+      </div>
+      <div>
+        <label for="Country">Country</label> <br />
+        <input type="text" class="cur" name="Country" required />
+      </div>
+      <div>
+        <p id="para1">Remarks</p>
+        <textarea name="Remarks" id="cur" placeholder="Remarks"></textarea>
+        <p id="save">
+          <input type="checkbox" name="save info" id="save" /> Save Info for
+          Future Donations
+
+          <input type="radio" name="fikra" value="Sadqah" />Sadqah
+          <input type="radio" name="fikra" value="Zakat" />Zakat
+        </p>
+      </div>
+      <div id="ban">Bank charges (3%) : 0 PKR</div>
+      <div id="ban1">Amount payable : 0</div>
+      <button>Donate</button>
+    </div>
+  </body>
+</html>

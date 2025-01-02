@@ -1,0 +1,83 @@
+*{
+    margin: 15px;
+    padding: 0;
+}
+
+body{
+    font-family:  sans-serif;
+    background-color: antiquewhite;
+    color: black;
+}
+
+#card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cur{
+    width: 500px;
+    height: 70px;
+    border-radius: 5px;
+    border: 1px solid blue;
+    box-shadow: 2px 1px 1px lightblue;
+    font-size: 20px;
+}
+label{
+    font-size: 30px;
+}
+
+textarea{
+    resize: none;
+    
+    border-radius: 5px;
+    border: 1px solid green;
+    
+    width: 1080px;
+    height: 100px;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+#para1{
+    font-size: 30px;
+}
+
+#save{
+   font-size: 30px;
+}
+
+#ban{
+    width: 500px;
+    height: 30px;
+    background-color: rgb(228, 252, 252);
+    display: flex;
+    justify-content: space-between; 
+    font-size: 20px;
+    padding: 10px;
+}
+
+#ban1{
+    width: 500px;
+    height: 30px;
+    background-color: rgb(228, 252, 252);
+    display: flex;
+    justify-content: flex-end; 
+    font-size: 20px;
+    padding: 10px;
+}
+
+button{
+    height: 50px;
+    width: 1100px;
+    border-radius: 10px;
+    margin-top: 250px;
+    background-color: #31e237;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 0;
+    top: 0;
+}

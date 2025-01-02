@@ -1,0 +1,653 @@
+*{
+    margin: 2px;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(238, 245, 238);
+    font-family: sans-serif;
+   
+}
+
+.content{
+    height: 100vh;
+    width: 100vw;
+   
+}
+
+
+#upper{
+    height: 60px;
+    width: 100%;
+    background-color: #edf0f5;
+    display:flex ;
+    
+   
+}
+
+
+
+
+
+#info{
+    height: 60px;
+    width: 80%;
+    background-color:#edf0f5;
+    display: flex;
+    color:#676a6e;
+    font-size: 12px;
+    padding: px;
+    font-weight: 900;
+    line-height: 60px;
+    list-style: none;
+    margin-left: 10px;
+}
+
+#info li{
+    margin-right: 20px;
+    
+    
+}
+
+#info a{
+    text-decoration: none;
+    color: gray;
+    
+
+}
+
+#english{
+    height: 60px;
+    width: 10%;
+    background-color: #edf0f5;
+    margin-left: 100px;  
+}
+
+select{
+    height: 50px;
+    width: 100px;
+    background-color: #edf0f5;
+    margin-left: 20px;
+    color: gray;
+    font-size: 20px;
+    line-height: 60px;
+    border: none;
+    font-weight: bold;
+    
+}
+
+
+#lower{
+    height: 180px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 5px;
+    
+    
+}
+
+#lower a{
+    text-decoration: none;
+    color: gray;
+    font-size: 22px;
+    
+    margin-right: 10px;   
+}
+
+#lower :hover{
+    text-decoration: underline green 2px;
+    transition: text-decoration 0.5s ease;
+    height: 70px;
+    width: 150px;
+}
+
+#lower > a > img {
+    margin-top: 10px;
+}
+
+#lower button{
+    height: 65px;
+    width: 130px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+  
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+#now{
+    background-color: rgb(53, 53, 252);
+}
+
+#lower > a > #now{
+    background-color: rgb(53, 53, 252);
+    color: white;
+    text-decoration: none;
+}
+
+#front{
+    height: 1000px;
+    width: 100%;
+    background-color:white;
+    text-align: center;
+    
+}
+
+#heading1{
+    height: 120px;
+    width: 60%;
+    margin-left: 300px;
+    background-color: white;
+    font-size: 25px; 
+    line-height: 120px;
+    font-family: sans-serif;
+ 
+}
+
+#intro{
+    height: 600px;
+    width: 40%;
+    background-color:white;
+    position: relative;
+    left: 0;
+    margin-top: 100px;
+    font-size:25px;
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+#intro a {
+    text-decoration: none;
+    color: black;
+}
+
+#say{
+    color: green;
+}
+
+#Assist{
+    color: rgb(104, 104, 247);
+    
+}
+
+#para1{
+    color: rgb(41, 39, 39);
+}
+
+#explore{
+    border: 1px solid black;
+    line-height: 30px;
+    height: 80px;
+    width: 40%;
+    font-size: 30px;
+    background-color: white;
+}
+
+ #explore :hover{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+}
+
+#img1{
+    height: 250px;
+    width: 250px;
+    margin-top:30px ;
+    position: relative;
+    bottom: 700px;
+    left: 600px;
+    
+}
+
+
+
+
+
+#quick{
+    height: 180px;
+    width: 100%;
+    background-color: rgb(217, 248, 240);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#quick :hover{
+    height:80px ;
+}
+
+#quick button{
+    height: 65px;
+    width: 200x;
+    background-color:white;
+    color: black;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 50px;
+    
+}
+
+#quick .but:hover{
+    background-color: black;
+    color: white;
+    
+}
+#quick .but input{
+    height: 40px;
+}
+
+#quick .qui{
+    background-color: #4CAF50;
+    color: white;
+}
+#education{
+    height: 800px;
+    width: 100%;
+    background-color: aquamarine;
+    background-image: url(https://res.cloudinary.com/saylani-welfare/image/upload/v1721909453/website-images/dynamic/692fbdfa-20b6-4f0b-9c59-778cca7ba0b5.jpg);
+    background-size: cover;
+    margin-top: 5px;
+    
+}
+
+#education :hover{
+    background-image: url(https://res.cloudinary.com/saylani-welfare/image/upload/v1727273177/website-images/dynamic/010d7328-dd17-4a67-8831-56a64c83be8b.jpg);
+    background-size: cover;
+}
+
+#working{
+    height:250px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+
+
+#working > div{
+    height: 200px;
+    width: 14%;
+    margin-top: 25px;
+    background-color:rgb(238, 245, 238) ;
+    margin-left: 25px;    
+}
+
+#working > div :hover{
+   height: 120px;
+}
+
+
+.welfare{
+    height: inherit;
+    width: inherit;
+   text-align: center;
+  
+}
+
+.welfare img{
+    margin-top: 40px;
+}
+
+#donate{
+    height: 400px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    
+}
+
+#donate > #sponser > button{
+    height: 50px;
+    width: 420px;
+    border-radius: 10px;
+    margin-top: 250px;
+    background-color: #31e237;
+    color: white;
+    font-size: 20px;
+}
+
+#donate > #daily > button{
+    height: 50px;
+    width: 420px;
+    border-radius: 10px;
+    margin-top: 250px;
+    background-color: #31e237;
+    color: white;
+    font-size: 20px;
+}
+
+#donate > #vocational > button{
+    height: 50px;
+    width: 420px;
+    border-radius: 10px;
+    margin-top: 250px;
+    background-color: #31e237;
+    color: white;
+    font-size: 20px;
+}
+
+#donate > #daily > button > a{
+    text-decoration: none;
+    color: white;
+}
+
+#donate > #vocational > button > a{
+    text-decoration: none;
+    color: white;
+}
+
+#donate > #sponser > button > a{
+    text-decoration: none;
+    color: white;
+}
+
+#donate > div {
+    height: 350px;
+    width: 31%;
+    margin-left: 15px;
+    background-color: aquamarine;
+    margin-top: 0px;
+    border-radius: 20px;
+}    
+
+#sponser{
+    background-image: url(images.jpeg);
+    background-size: cover;
+    
+}
+
+#sponser > img {
+    opacity: 0.5;
+}
+
+#daily{
+    background-image: url(b0abff1d-a3f9-49a7-9d58-273bbc735561.jpg);
+    background-size: cover;
+}
+
+#vocational{
+    background-image: url(download\ \(1\).jpeg);
+    background-size: cover;
+}
+
+#upcoming{
+    height: 600px;
+    width: 100%;
+    background-color:white;
+}
+
+#imgser{
+    height: 600px;
+    width: 45%;
+    background-color: aqua;
+    float: left;
+    margin-left: 60px;
+    background-image: url(https://i.tribune.com.pk/media/images/2178912-image-1584559620/2178912-image-1584559620.jpg);
+    display: flex;
+    border-top-left-radius: 70px;
+    
+}
+
+#portion{
+    height: 300px;
+    width: 50%;
+    background-color: #31e237;
+    border-top-left-radius: 70px;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    font-size: 25px;
+}
+
+#table{
+    height: 600px;
+    width: 45%;
+    background-color: white;
+    float: right;
+    margin-right: 60px;
+}
+
+.tab{
+   color: rgb(94, 94, 241);
+}
+
+#blue{
+    height: 500px;
+    width: 100%;
+    background-color: blue;
+    background-image: url(https://img.freepik.com/free-vector/gradient-blue-abstract-technology-background_23-2149213765.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    
+}
+
+#blue > div{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color:#4CAF50;
+}
+
+.one{
+    line-height: 150px;
+    font-size: 25px;
+    
+}
+
+#testimonials{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#director{
+    height: 500px;
+    width: 95%;
+    background-color: rgb(238, 245, 238);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+#director > img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+#dir{
+    font-size: 25px;
+}
+
+#media{
+    height: 150px;
+    width: 90%;
+    background-color: white;
+    padding: 50px;
+}
+
+#heading2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#container1{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(238, 245, 238);
+    display: flex;
+}
+
+#container1 > div{
+    height: 450px;
+    width: 23%;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.empowering{
+    height:200px ;
+    width: 20%;
+    border-radius: 10px;
+}
+iframe {
+    border-radius: 10px;
+}
+
+#para3{
+    font-size: 30px;
+}
+
+#container2{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(238, 245, 238);
+    display: flex;
+}
+
+#container2 > div{
+    height: 450px;
+    width: 23%;
+    background-color:white;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+#guide{
+    height: 300px;
+    width: 80%;
+    margin: 50px;
+    background-color: lightgray;
+    margin-left: 160px;
+    background-image: url(https://img.freepik.com/free-vector/gradient-blue-abstract-technology-background_23-2149213765.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#guide > #guideline > input {
+    height: 60px;
+    width: 600px;
+    color: white;
+    border:1px solid white;
+    background-color:transparent;
+    padding-left: 30px;
+    font-size: 20px;
+    
+}
+
+#sub{
+    height: 60px;
+    width: 625px;
+    font-weight: bold;
+    background-color:white;
+    color: black;
+    font-size: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+
+#footer{
+    height: 700px;
+    width: 98%;
+    background-color:black;
+    background-image: url(https://images.pexels.com/photos/4862863/pexels-photo-4862863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#footer > div{
+    height: 300px;
+    width: 400px;
+    background-color:transparent;
+    display: inline-block;
+    margin-top: 200px;
+    text-align: left;
+}
+
+#footer > div > a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.abo{
+    display: inline;
+}
+
+.first a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+    list-style: none;
+}
+
+.para5{
+    font-size: 25px;
+    color: white;
+}
+
+
+@media only screen and (max-width: 450px) {
+       
+    
+    #info{
+        flex-direction: column;  
+        font-size: 12px;
+        font-weight: lighter;
+        
+    }
+    #english{
+       flex-direction: column;
+
+    }
+    
+    select{
+        flex-direction: column;
+        font-weight: light;
+        
+    }
+
+    }
